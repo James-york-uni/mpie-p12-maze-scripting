@@ -32,9 +32,6 @@ public class Tilt : MonoBehaviour
         // Rotate around our y-axis
         transform.Rotate(rotation, 0, 0);
 
-        if(translation>maxTilt) {
-            translation = maxTilt;
-        }
         
     }
 }
